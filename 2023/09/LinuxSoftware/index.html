@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <style>
+        body
+        {
+            font-family: "Times New Roman", Helvetica, Tahoma, Arial,   LXGW WenKai   "notoserifsc-medium", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif !important;
+
+        }
+    </style>
+
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="description" content="Linux基础软件下载教程" />
+    <meta name="hexo-theme-A4" content="v1.8.9" />
+    <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
+    <title>LieHuo | a guy who loves fresh things</title>
+
+    
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+        
+        
+<link rel="stylesheet" href="/css/ui.css">
+ 
+        
+<link rel="stylesheet" href="/css/style.css">
+
+
+        
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery.min.css">
+
+
+<meta name="generator" content="Hexo 7.1.1">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+    
+    
+    <body>
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-bottom paper-main">
+                    
+
+
+<div class="header">
+    <div class="header-container">
+        <img style="
+        width: 56px;
+        height: auto;" alt="^-^" cache-control="max-age=86400" class="header-img" src="/img/favicon.webp" width="10%"></img>
+        <div class="header-content">
+            <a class="logo" href="/">LieHuo</a> 
+            <span class="description">全栈开发 | 热爱生活与技术</span> 
+        </div>
+        
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">首页</a></li>
+            
+        
+            
+                <li><a href="/list/">文章</a></li>
+            
+        
+            
+                <li><a href="/works/">作品</a></li>
+            
+        
+            
+                <li><a href="/tags/">标签</a></li>
+            
+        
+            
+                <li><a href="/categories/">分类</a></li>
+            
+        
+            
+                <li><a href="/message/">留言</a></li>
+            
+        
+            
+                <li><a href="/about/">关于</a></li>
+            
+        
+            
+                <li><a href="/now/">Now</a></li>
+            
+        
+    </ul>
+</div> 
+        
+                    
+                    
+
+                    
+                    
+                    
+                    <!--说明是文章post页面-->
+                    
+                        <div class="post-main">
+
+    
+        <div class="post-main-title">
+            Linux基础软件下载教程
+        </div>
+      
+    
+
+    <div class="post-md">
+        
+            
+                <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Linux%E5%9F%BA%E7%A1%80%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85"><span class="post-toc-text">Linux基础软件安装</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#JDK1-8%E5%AE%89%E8%A3%85"><span class="post-toc-text">JDK1.8安装</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Tomcat%E5%AE%89%E8%A3%85"><span class="post-toc-text">Tomcat安装</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#MySQL%E5%AE%89%E8%A3%85"><span class="post-toc-text">MySQL安装</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Nginx%E5%AE%89%E8%A3%85"><span class="post-toc-text">Nginx安装</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Redis%E5%AE%89%E8%A3%85"><span class="post-toc-text">Redis安装</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#RocketMQ%E5%AE%89%E8%A3%85"><span class="post-toc-text">RocketMQ安装</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Docker%E5%AE%89%E8%A3%85"><span class="post-toc-text">Docker安装</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#elasticsearch-docker-%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8%E9%97%AE%E9%A2%98"><span class="post-toc-text">elasticsearch docker 无法启动问题</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E5%B0%86docker%E9%95%9C%E5%83%8F%E6%8B%B7%E8%B4%9D%E5%88%B0%E5%85%B6%E4%BB%96%E7%94%B5%E8%84%91%E8%BF%90%E8%A1%8C"><span class="post-toc-text">将docker镜像拷贝到其他电脑运行</span></a></li></ol>
+            
+        
+        <div class=".article-gallery"><h2 id="Linux基础软件安装"><a href="#Linux基础软件安装" class="headerlink" title="Linux基础软件安装"></a>Linux基础软件安装</h2><h3 id="JDK1-8安装"><a href="#JDK1-8安装" class="headerlink" title="JDK1.8安装"></a>JDK1.8安装</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/local/java/jdk1.8.0_381</span><br></pre></td></tr></tbody></table></figure>
+
+<p>1、使用Xftp把 <code>jdk-8u381-linux-x64.tar.gz</code> 文件传入 <code>/usr/local/java</code> 目录下</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">mkdir</span> /usr/local/java</span><br></pre></td></tr></tbody></table></figure>
+
+<p>2、解压</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ tar -zxvf jdk-8u381-linux-x64.tar.gz</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong>3、配置环境变量</strong></p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ vim /etc/profile</span><br><span class="line">...</span><br><span class="line"><span class="built_in">export</span> JAVA_HOME=/usr/local/java/jdk1.8.0_381</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$JAVA_HOME</span>/bin:<span class="variable">$PATH</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong>4、让配置文件生效</strong></p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">source</span> /etc/profile</span><br><span class="line">$ java -version</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="Tomcat安装"><a href="#Tomcat安装" class="headerlink" title="Tomcat安装"></a>Tomcat安装</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/opt/software/tomcat/apache-tomcat-9.0.78</span><br></pre></td></tr></tbody></table></figure>
+
+<p>1、上传安装文件，并解压缩到<code>/opt/tomcat</code><br>2、进入解压目录 <code>/bin</code> ，启动tomcat <code>./startup.sh</code><br>3、开放端口 <code>8080</code></p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#开启防火墙</span></span><br><span class="line">$ systemctl start firewalld</span><br><span class="line"><span class="comment">#添加端口</span></span><br><span class="line">$ firewall-cmd --add-port=8080/tcp --permanent</span><br><span class="line">success</span><br><span class="line"><span class="comment">#重新加载防火墙规则</span></span><br><span class="line">$ firewall-cmd --reload</span><br><span class="line">success</span><br><span class="line">$ firewall-cmd --query-port=8080/tcp</span><br><span class="line"><span class="built_in">yes</span></span><br><span class="line"><span class="comment">#查看所有永久开放的端口</span></span><br><span class="line">$ firewall-cmd --list-ports --permanent</span><br><span class="line"><span class="comment">#查看防火墙状态</span></span><br><span class="line">$ systemctl status firewalld</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="MySQL安装"><a href="#MySQL安装" class="headerlink" title="MySQL安装"></a>MySQL安装</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/local/mysql</span><br></pre></td></tr></tbody></table></figure>
+
+<p><a target="_blank" rel="noopener" href="https://lebang2020.cn/details/201206j2arx5fa.html">CentOS 安装MySql8 离线手动安装 （rpm） - 乐帮网</a></p>
+<p><a href="/img/2023/09/LinuxSoftware/01.png" title="image" class="gallery-item" style="box-shadow: none;"> <img src="/img/2023/09/LinuxSoftware/01.png" alt="image"></a></p>
+<p>CentOS7需要先卸载 <code>mariadb</code> 相关安装包</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rpm -qa | grep mariadb</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ rpm -e --nodeps mariadb-libs-5.5.65-1.el7.x86_64</span><br></pre></td></tr></tbody></table></figure>
+
+<p>1、准备MySql安装包</p>
+<p>从官网下载安装包，CentOS对应的是Red Hat Enterprise Linux 相应的版本<br>地址：<a target="_blank" rel="noopener" href="https://dev.mysql.com/downloads/mysql/">https://dev.mysql.com/downloads/mysql/</a><br>把 <code>mysql-8.0.34-1.el7.x86_64.rpm-bundle.tar</code> 上传到/usr/local/mysql目录下</p>
+<p>2、解压安装包</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /usr/local/mysql</span><br><span class="line">$ <span class="built_in">mkdir</span> mysql-8.0.34-1.el7.x86_64.rpm-bundle.tar</span><br><span class="line">$ tar -xvf mysql-8.0.34-1.el7.x86_64.rpm-bundle.tar -C ./mysql-8.0.34-1.el7.x86_64.rpm-bundle</span><br><span class="line"></span><br><span class="line">mysql-community-client-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">mysql-community-client-plugins-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">mysql-community-common-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">mysql-community-debuginfo-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">mysql-community-devel-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">mysql-community-embedded-compat-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">mysql-community-icu-data-files-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">mysql-community-libs-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">mysql-community-libs-compat-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">mysql-community-server-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">mysql-community-server-debug-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">mysql-community-test-8.0.34-1.el7.x86_64.rpm</span><br></pre></td></tr></tbody></table></figure>
+
+<p>3、安装</p>
+<p>进入到解压目录查看rpm包</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> mysql-8.0.34-1.el7.x86_64.rpm-bundle</span><br><span class="line">$ <span class="built_in">ls</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>根据包名输入以下命令安装</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[root@liehuo mysql-8.0.34-1.el7.x86_64.rpm-bundle]</span><br><span class="line">$ rpm -ivh mysql-community-common-8.0.34-1.el7.x86_64.rpm</span><br><span class="line"></span><br><span class="line">warning: mysql-community-common-8.0.34-1.el7.x86_64.rpm: Header V4 RSA/SHA256 Signature, key ID 3a79bd29: NOKEY</span><br><span class="line">Preparing...                          <span class="comment">################################# [100%]</span></span><br><span class="line">Updating / installing...</span><br><span class="line">   1:mysql-community-common-8.0.34-1.e<span class="comment">################################# [100%]</span></span><br><span class="line">   </span><br><span class="line">$ rpm -ivh mysql-community-client-plugins-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">$ rpm -ivh mysql-community-libs-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">$ rpm -ivh mysql-community-client-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">$ rpm -ivh mysql-community-icu-data-files-8.0.34-1.el7.x86_64.rpm</span><br><span class="line">$ rpm -ivh mysql-community-server-8.0.34-1.el7.x86_64.rpm</span><br></pre></td></tr></tbody></table></figure>
+
+<p>4、初始化数据库</p>
+<p>要保证mysqld用户对它有权限，请按以下顺序操作</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">chown</span> -R mysql.mysql /var/lib/mysql/</span><br><span class="line">$ mysqld --initialize</span><br><span class="line">$ grep <span class="string">'temporary password'</span> /var/log/mysqld.log</span><br><span class="line"></span><br><span class="line">2023-09-17T08:52:41.060877Z 6 [Note] [MY-010454] [Server] A temporary password is generated <span class="keyword">for</span> root@localhost: YHbKaMNn0x(X</span><br></pre></td></tr></tbody></table></figure>
+<p>最后一行就是我们root的默认密码</p>
+<p>6、启动服务</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">$ systemctl start mysqld.service</span><br><span class="line">$ systemctl status mysqld</span><br><span class="line"></span><br><span class="line">mysqld.service - MySQL Server</span><br><span class="line">   Loaded: loaded (/usr/lib/systemd/system/mysqld.service; enabled; vendor preset: disabled)</span><br><span class="line">   Active: active (running) since Sun 2023-09-17 16:56:21 CST; 4s ago</span><br><span class="line">     Docs: man:mysqld(8)</span><br><span class="line">           http://dev.mysql.com/doc/refman/en/using-systemd.html</span><br><span class="line">  Process: 15337 ExecStartPre=/usr/bin/mysqld_pre_systemd (code=exited, status=0/SUCCESS)</span><br><span class="line"> Main PID: 15361 (mysqld)</span><br><span class="line">   Status: <span class="string">"Server is operational"</span></span><br><span class="line">   CGroup: /system.slice/mysqld.service</span><br><span class="line">           └─15361 /usr/sbin/mysqld</span><br><span class="line"></span><br><span class="line">Sep 17 16:56:19 liehuo systemd[1]: Starting MySQL Server...</span><br><span class="line">Sep 17 16:56:21 liehuo systemd[1]: Started MySQL Server.</span><br></pre></td></tr></tbody></table></figure>
+
+<p>7、登录MySQL</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">[root@liehuo mysql-8.0.34-1.el7.x86_64.rpm-bundle]$ mysql -u root -p</span><br><span class="line">Enter password:</span><br><span class="line"></span><br><span class="line">Welcome to the MySQL monitor.  Commands end with ; or \g.</span><br><span class="line">Your MySQL connection <span class="built_in">id</span> is 9</span><br><span class="line">Server version: 8.0.34</span><br><span class="line"></span><br><span class="line">Copyright (c) 2000, 2023, Oracle and/or its affiliates.</span><br><span class="line"></span><br><span class="line">Oracle is a registered trademark of Oracle Corporation and/or its</span><br><span class="line">affiliates. Other names may be trademarks of their respective</span><br><span class="line">owners.</span><br><span class="line"></span><br><span class="line">Type <span class="string">'help;'</span> or <span class="string">'\h'</span> <span class="keyword">for</span> <span class="built_in">help</span>. Type <span class="string">'\c'</span> to clear the current input statement.</span><br><span class="line"></span><br><span class="line">mysql&gt;</span><br></pre></td></tr></tbody></table></figure>
+
+<p>8、修改密码</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#首次修改密码</span></span><br><span class="line">$ mysql&gt; ALTER user <span class="string">'root'</span>@<span class="string">'localhost'</span> IDENTIFIED BY <span class="string">'123456'</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">#修改远程密码</span></span><br><span class="line">$ mysql&gt; ALTER USER <span class="string">'root'</span>@<span class="string">'%'</span> IDENTIFIED WITH mysql_native_password BY <span class="string">'xxx'</span>;</span><br></pre></td></tr></tbody></table></figure>
+
+<p>9、开启远程访问</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ mysql -u root -p <span class="variable">${your password}</span></span><br><span class="line"></span><br><span class="line">$ use mysql;</span><br><span class="line">$ <span class="keyword">select</span> host, user, authentication_string, plugin from user;</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#如果没有host=%的，说明没有启用远程登陆的账户</span></span><br><span class="line">$ update user <span class="built_in">set</span> host=<span class="string">'%'</span> <span class="built_in">where</span> user=<span class="string">'root'</span>;</span><br><span class="line"><span class="comment">#给远程账户授权</span></span><br><span class="line">$ Grant all privileges on root.* to <span class="string">'root'</span>@<span class="string">'%'</span>;</span><br><span class="line"><span class="comment">#设置密码</span></span><br><span class="line">$ ALTER USER <span class="string">'root'</span>@<span class="string">'%'</span> IDENTIFIED WITH mysql_native_password BY <span class="string">'${your password}'</span>;</span><br><span class="line"><span class="comment">#刷新权限</span></span><br><span class="line">$ flush privileges;</span><br></pre></td></tr></tbody></table></figure>
+
+<p>10、开启防火墙 <code>3306</code> 端口的访问权限</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#开放3306端口</span></span><br><span class="line">$ firewall-cmd --zone=public --add-port=3306/tcp --permanent</span><br><span class="line"><span class="comment">#重启防火墙</span></span><br><span class="line">$ firewall-cmd --reload</span><br><span class="line"><span class="comment">#查看mysql版本</span></span><br><span class="line">$ mysql -V</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="Nginx安装"><a href="#Nginx安装" class="headerlink" title="Nginx安装"></a>Nginx安装</h3><p>1、编译环境</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ yum install git gcc gcc-c++ make automake autoconf libtool pcre pcre-devel zlib zlib-devel openssl-devel wget vim -y</span><br></pre></td></tr></tbody></table></figure>
+
+<p>or<br>安装所需插件</p>
+<ol>
+<li>gcc</li>
+</ol>
+<p>gcc是linux下的编译器，它可以编译 C,C++,Ada,Object C和Java等语言</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#查看gcc版本 </span></span><br><span class="line">$ gcc -v</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ yum -y install gcc</span><br></pre></td></tr></tbody></table></figure>
+
+<ol start="2">
+<li>pcre、pcre-devel</li>
+</ol>
+<p>pcre是一个perl库，包括perl兼容的正则表达式库，nginx的http模块使用pcre来解析正则表达式</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ yum install -y pcre pcre-devel</span><br></pre></td></tr></tbody></table></figure>
+
+<ol start="3">
+<li>zlib</li>
+</ol>
+<p>zlib库提供了很多种压缩和解压缩方式，nginx使用zlib对http包的内容进行gzip</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ yum install -y zlib zlib-devel</span><br></pre></td></tr></tbody></table></figure>
+
+<ol start="4">
+<li>openssl</li>
+</ol>
+<p>openssl是web安全通信的基石</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ yum install -y openssl openssl-devel</span><br></pre></td></tr></tbody></table></figure>
+
+<p>2、把nginx压缩包解压到 <code>/usr/local/nginx</code> 下</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ tar -zxvf nginx-1.20.2.tar.gz</span><br></pre></td></tr></tbody></table></figure>
+
+<p>3、执行./configure并进行编译安装</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /usr/local/nginx/nginx-1.20.2/</span><br><span class="line"><span class="comment">#执行</span></span><br><span class="line">$ ./configure</span><br><span class="line"><span class="comment">#编译安装</span></span><br><span class="line">$ make &amp;&amp; make install </span><br></pre></td></tr></tbody></table></figure>
+
+<p>4、启动nginx服务</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /usr/local/nginx/sbin</span><br><span class="line">$ ./nginx </span><br><span class="line"><span class="comment"># or</span></span><br><span class="line">$ /usr/local/nginx/sbin/nginx</span><br><span class="line"></span><br><span class="line"><span class="comment">#启动nginx</span></span><br><span class="line">$ /usr/local/nginx/sbin/nginx</span><br><span class="line"> <span class="comment">#重启nginx</span></span><br><span class="line">$ /usr/local/nginx/sbin/nginx -s reload</span><br><span class="line"><span class="comment">#停止nginx</span></span><br><span class="line">$ /usr/local/nginx/sbin/nginx -s stop </span><br></pre></td></tr></tbody></table></figure>
+
+<p>检查配置文件是否有误</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#编辑配置文件</span></span><br><span class="line">$ vim /usr/local/nginx/conf/nginx.conf</span><br><span class="line"><span class="comment">#检测配置文件</span></span><br><span class="line">$ ./nginx -t</span><br><span class="line"></span><br><span class="line">ngx_http_fastdfs_set pid=29157</span><br><span class="line">nginx: the configuration file /usr/local/nginx/conf/nginx.conf syntax is ok</span><br><span class="line">nginx: configuration file /usr/local/nginx/conf/nginx.conf <span class="built_in">test</span> is successful</span><br></pre></td></tr></tbody></table></figure>
+
+<p>5、查看nginx进程</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ ps aux | grep nginx</span><br><span class="line"><span class="comment">#or</span></span><br><span class="line">netstat -ntpl</span><br></pre></td></tr></tbody></table></figure>
+
+<p>6、开启端口</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@liehuo sbin]$ firewall-cmd --add-port=80/tcp --permanent</span><br><span class="line">success</span><br><span class="line">[root@liehuo sbin]$ firewall-cmd --reload</span><br><span class="line">success</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="Redis安装"><a href="#Redis安装" class="headerlink" title="Redis安装"></a>Redis安装</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/local/redis</span><br></pre></td></tr></tbody></table></figure>
+
+<p>1、把redis压缩包解压到 <code>/usr/local/redis</code> 下</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ tar -zvxf redis-5.0.5.tar.gz</span><br></pre></td></tr></tbody></table></figure>
+
+<p>2、使用make命令进行编译</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /usr/local/redis/redis-5.0.5</span><br><span class="line">$ make</span><br></pre></td></tr></tbody></table></figure>
+
+<p>3、进入src文件执行make install安装redis</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /usr/local/redis/redis-5.0.5/src</span><br><span class="line">$ make install</span><br></pre></td></tr></tbody></table></figure>
+
+<p>4、启动redis（前台）</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[root@liehuo src]$ ./redis-server ../redis.conf</span><br></pre></td></tr></tbody></table></figure>
+
+<p>5、修改redis.conf配置文件</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#redis server 接收这个网卡过来的连接</span></span><br><span class="line"><span class="built_in">bind</span> 192.168.221.129</span><br><span class="line"><span class="comment"># 允许任何主机连接、访问</span></span><br><span class="line"><span class="built_in">bind</span> 127.0.0.1 改为 <span class="built_in">bind</span> 0.0.0.0</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">// 修改保护模式, 不修改保护模式也是只能内网访问的 protected-mode <span class="built_in">yes</span> 改成 protected-mode no</span><br><span class="line">protected-mode no</span><br><span class="line">// daemonize no 改为<span class="built_in">yes</span> 后台一直运行</span><br><span class="line">daemonize <span class="built_in">yes</span></span><br><span class="line">// 设置密码, 这里建议设置密码, 否则可能会发生一些预料不到的事情, 因为6379端口有漏洞</span><br><span class="line">requirepass <span class="string">"你的密码"</span></span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure>
+
+<p>6、后台运行</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ./redis-server ../redis.conf</span><br></pre></td></tr></tbody></table></figure>
+
+<p>7、查看redis进程</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ps -ef | grep redis</span><br></pre></td></tr></tbody></table></figure>
+
+<p>8、开放端口</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=6379/tcp --permanent</span><br><span class="line">firewall-cmd --reload</span><br></pre></td></tr></tbody></table></figure>
+
+<p>9、启动redis-cli</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[root@liehuo src]$ ./redis-cli</span><br><span class="line">127.0.0.1:6379&gt; auth 123456</span><br><span class="line">OK</span><br><span class="line">127.0.0.1:6379&gt; keys *</span><br><span class="line">(empty list or <span class="built_in">set</span>)</span><br><span class="line">127.0.0.1:6379&gt; </span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="RocketMQ安装"><a href="#RocketMQ安装" class="headerlink" title="RocketMQ安装"></a>RocketMQ安装</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/local/rocketmq/rocketmq-4.9.2/</span><br></pre></td></tr></tbody></table></figure>
+
+<p>rocketmq 需要 Linux 上安装JDK，版本 1.8 及以上<br>1、上传之后进行解压:</p>
+<figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">unzip rocketmq<span class="literal">-all-4</span>.<span class="number">7.0</span><span class="literal">-bin-release</span>.zip</span><br></pre></td></tr></tbody></table></figure>
+
+<p>目录结构</p>
+<ul>
+<li>benchmark：测试 sh 文件</li>
+<li>bin：可执行文件</li>
+<li>conf：配置文件</li>
+<li>lib：mq 所依赖的第三方 jar 包</li>
+</ul>
+<p>2、启动 RocketMQ</p>
+<p>在 bin 目录下，执行下面命令<br>启动nameserver</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /usr/local/rocketmq/rocketmq-4.9.2/bin</span><br><span class="line"><span class="comment">#后台运行</span></span><br><span class="line">[root@liehuo bin]$ <span class="built_in">nohup</span> sh mqnamesrv &amp;</span><br><span class="line"></span><br><span class="line">[1] 4456</span><br><span class="line"><span class="built_in">nohup</span>: ignoring input and appending output to <span class="string">'nohup.out'</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>启动 broker</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#后台运行</span></span><br><span class="line">[root@liehuo bin]$ <span class="built_in">nohup</span> sh mqbroker -c /usr/local/rocketmq/rocketmq-4.9.2/conf/broker.conf &amp;</span><br><span class="line"></span><br><span class="line">[1] 7940</span><br><span class="line"><span class="built_in">nohup</span>: ignoring input and appending output to <span class="string">'nohup.out'</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#or 前台运行</span></span><br><span class="line">[root@liehuo rocketmq-4.9.2]$ bin/mqnamesrv</span><br><span class="line">[root@liehuo rocketmq-4.9.2]$ bin/mqbroker -c /usr/local/rocketmq/rocketmq-4.9.2/conf/broker.conf</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看日志，看 mq 是否启动成功</span></span><br><span class="line">[root@liehuo bin]$ <span class="built_in">tail</span> -f ~/logs/rocketmqlogs/broker.log</span><br><span class="line">[root@liehuo rocketmq]$ <span class="built_in">tail</span> -f ~/logs/rocketmqlogs/namesrv.log</span><br></pre></td></tr></tbody></table></figure>
+
+<p>3、进入 conf 目录追加内容</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /usr/local/rocketmq/rocketmq-4.9.2/conf</span><br><span class="line">$ vim broker.conf</span><br><span class="line"></span><br><span class="line"><span class="comment">#追加下面内容</span></span><br><span class="line">listenPort=10911</span><br><span class="line">namesrvAddr=localhost:9876</span><br><span class="line">storePathRootDir=/usr/local/rocketmq/rocketmq-4.9.2/store</span><br><span class="line">storePathCommitLog=/usr/local/rocketmq/rocketmq-4.9.2/store/commitlog</span><br><span class="line">storePathConsumerQueue=/usr/local/rocketmq/rocketmq-4.9.2/store/consumequeue</span><br></pre></td></tr></tbody></table></figure>
+
+<p>4、修改内存大小<br>不修改内存大小可能运行不起来<br>进入 bin 目录<br>编辑 runbroker.sh 文件和 runserver.sh 文件，修改内存大小</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim runserver.sh</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim runbroker.sh</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong>5、查看进程</strong></p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netstat -an | grep 9876</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong>6、开放防火墙 9876 和 10911 端口</strong></p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">firewall-cmd --zone=public --add-port=9876/tcp --permanent</span><br><span class="line">firewall-cmd --zone=public --add-port=10911/tcp --permanent</span><br><span class="line">firewall-cmd --reload</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong>7、关闭MQ</strong></p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /usr/local/rocketmq/rocketmq-4.9.2/bin</span><br><span class="line"><span class="comment"># 关闭 namesrv</span></span><br><span class="line">sh mqshutdown namesrv</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 关闭 broker</span></span><br><span class="line">sh mqshutdown broker</span><br></pre></td></tr></tbody></table></figure>
+
+<h3 id="Docker安装"><a href="#Docker安装" class="headerlink" title="Docker安装"></a>Docker安装</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#工作目录</span></span><br><span class="line">/var/lib/docker</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#查看已安装的docker文件</span></span><br><span class="line">yum list installed | grep docker</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#更新yum</span></span><br><span class="line">yum update</span><br><span class="line"><span class="comment"># yum-util 提供yum-config-manager功能，另外两个是devicemapper驱动依赖的	</span></span><br><span class="line">yum install -y yum-utils device-mapper-persistent-data lvm2</span><br><span class="line"><span class="comment">#设置yum源</span></span><br><span class="line">yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</span><br><span class="line"><span class="comment">#or</span></span><br><span class="line">yum-config-manager \</span><br><span class="line">	--add-repo \</span><br><span class="line">	http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#更新yum软件包索引</span></span><br><span class="line">yum makecache fast</span><br><span class="line"></span><br><span class="line"><span class="comment">#查看可安装的副本</span></span><br><span class="line">yum list docker-ce --showduplicates | <span class="built_in">sort</span> -r</span><br><span class="line">yum list docker-ce-cli --showduplicates | <span class="built_in">sort</span> -r</span><br><span class="line">yum list containerd.io --showduplicates | <span class="built_in">sort</span> -r</span><br><span class="line"></span><br><span class="line"><span class="comment">#安装dokcer docker-ce社区 ee 企业版</span></span><br><span class="line">yum install docker-ce docker-ce-cli containerd.io</span><br><span class="line"><span class="comment">#or</span></span><br><span class="line">yum install docker-ce-24.0.5-1.el7 docker-ce-cli-24.0.5-1.el7 containerd.io-6.21-3.1.el7</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#启动docker</span></span><br><span class="line">systemctl start docker</span><br><span class="line"><span class="comment">#使用docker version 是否安装成功！</span></span><br><span class="line"><span class="comment">#拓展</span></span><br><span class="line">[root@liehuo ~]<span class="comment"># systemctl reload docker</span></span><br><span class="line">[root@liehuo ~]<span class="comment"># systemctl status docker</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#卸载依赖</span></span><br><span class="line">yum remove docker-ce docker-ce-cli containerd.io</span><br><span class="line"><span class="comment">#or</span></span><br><span class="line">yum remove docker-ce-24.0.5-1.el7 docker-ce-cli-24.0.5-1.el7 containerd.io-6.21-3.1.el7</span><br><span class="line"></span><br><span class="line"><span class="comment">#删除资源</span></span><br><span class="line"><span class="built_in">rm</span> -rf /var/lib/docker</span><br><span class="line"><span class="comment">#/var/lib/docker docker的默认工作路径！</span></span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">docker ps -a <span class="comment">#运行记录</span></span><br><span class="line">docker ps <span class="comment">#运行时</span></span><br><span class="line">docker start 99c9b77227de</span><br><span class="line">docker stop 99c9b77227de</span><br><span class="line"></span><br><span class="line"><span class="comment">#启动并加入开机启动</span></span><br><span class="line">systemctl start docker</span><br><span class="line">systemctl <span class="built_in">enable</span> docker</span><br></pre></td></tr></tbody></table></figure>
+
+<p>进入etc/docker目录下 [非必要操作]</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ls查看目录下有无daemon.json文件，如果没有创建一个</span></span><br><span class="line">$ <span class="built_in">cd</span> /etc/docker</span><br><span class="line">$ <span class="built_in">ls</span></span><br><span class="line">daemon.json</span><br></pre></td></tr></tbody></table></figure>
+
+<p>进入文件后，添加:</p>
+<figure class="highlight json"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">{</span></span><br><span class="line">  <span class="attr">"registry-mirrors"</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">"https://registry.docker-cn.com"</span><span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">}</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>还可以加入阿里云的docker 镜像加速地址：如 <a target="_blank" rel="noopener" href="https://y4xpdpoy.mirror.aliyuncs.com/">https://y4xpdpoy.mirror.aliyuncs.com</a><br>阿里云容器镜像服务 ：<a target="_blank" rel="noopener" href="https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors">https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors</a></p>
+<figure class="highlight json"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">{</span></span><br><span class="line">  <span class="attr">"registry-mirrors"</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="string">"https://registry.docker-cn.com"</span><span class="punctuation">,</span><span class="string">"https://y4xpdpoy.mirror.aliyuncs.com"</span><span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">}</span></span><br></pre></td></tr></tbody></table></figure>
+
+<p>重启docker服务</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service docker restart</span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="elasticsearch-docker-无法启动问题"><a href="#elasticsearch-docker-无法启动问题" class="headerlink" title="elasticsearch docker 无法启动问题"></a>elasticsearch docker 无法启动问题</h2><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#-e "discovery.type=single-node"这个东西好像是说设置单机使用</span></span><br><span class="line"><span class="comment">#-e ES_JAVA_OPTS="-Xms256m -Xmx256m"</span></span><br><span class="line"><span class="comment">#es启动需要2g的虚拟内存，正常咱们装的虚拟机根本没有分配到这么大的虚拟内存所以要这么写</span></span><br><span class="line">docker run -d --name es -p 9200:9200 -p 9300:9300 -e <span class="string">"discovery.type=single-node"</span> -e ES_JAVA_OPTS=<span class="string">"-Xms256m -Xmx256m"</span> 9cd5b752c86e</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 最大虚拟内存区太小了,设置大点</span></span><br><span class="line">sysctl -w vm.max_map_count=262144</span><br><span class="line"><span class="comment"># 然后再启动</span></span><br></pre></td></tr></tbody></table></figure>
+
+<h2 id="将docker镜像拷贝到其他电脑运行"><a href="#将docker镜像拷贝到其他电脑运行" class="headerlink" title="将docker镜像拷贝到其他电脑运行"></a>将docker镜像拷贝到其他电脑运行</h2><p>执行如下命令找到被打包镜像的名字和版本号 (版本号=TAG)<br><code>docker images</code><br>docker打包镜像的两种方式 (选一种执行即可)</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker save 镜像名字:版本号 &gt; /root/打包名字.tar</span><br><span class="line">docker save -o /root/打包名字.tar 镜像名字:版本号</span><br></pre></td></tr></tbody></table></figure>
+
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker save docker.elastic.co/kibana/kibana:7.15.2 &gt; /root/kibana_7.15.2.tar</span><br></pre></td></tr></tbody></table></figure>
+
+<p>将打包镜像分发到其它宿主机的 /root/ 目录下<br>xftp文件传输</p>
+<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#将打成tar包的镜像load出来</span></span><br><span class="line">docker load &lt; /root/kibana_7.15.2.tar</span><br></pre></td></tr></tbody></table></figure>
+
+<p>查看 load 出来的镜像ID<br><code>docker images</code><br>刚 load 出来的镜像其名字、版本号均为 none, 我们要通过 tag 命令赋予名字和版本号<br><code>docker tag 镜像ID 镜像名字:版本号</code></p>
+</div><script src="https://jsd.onmicrosoft.cn/npm/hexo-theme-a4@latest/source/js/lightgallery.min.js"></script><script>if (typeof lightGallery !== 'undefined') {
+        var options = {
+            selector: '.gallery-item'
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options);
+        }</script>
+    </div>
+
+    <div class="post-meta">
+        <i>
+        
+            <span>2023-09-16</span>
+            
+                <span>该篇文章被 于鑫瑞</span>
+            
+            
+                <span>打上标签:
+                    
+                    
+                        <a href='/tags/%E8%BD%AF%E4%BB%B6/'>
+                            软件
+                        </a>
+                    
+                </span>
+             
+             
+                <span>归为分类:
+                    
+                    
+                        <a href='/categories/%E5%BC%80%E5%8F%91/'>
+                            开发
+                        </a>
+                    
+                </span>
+            
+        
+        </i>
+    </div>
+    <br>
+    
+    <!-- <div class="post-footer-pre-next">
+        <span>上一篇：<a href=""></a></span>
+        <span class="post-footer-pre-next-last-span-right">上一篇：<a href=""></a></span>
+    </div> -->
+
+    
+        
+
+     
+</div>
+
+
+
+                                      
+                    
+                    
+                    <div class="footer">
+    
+        <span> 
+            © 2023-2024 程序员烈火 
+
+            
+                
+
+            
+                
+                    / <a href="/friends/"> 友链 </a>
+                
+
+            
+                
+                    / <a href="/contact/"> 联系 </a>
+                
+
+            
+                
+                    / <a href="/support/"> 支持 </a>
+                
+
+            
+        </span>
+    
+</div>
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>🔥做自己最喜欢的，做自己最擅长的🔥</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
+    
+
+    
+<script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery.min.js"></script>
+
+
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+            
+                <!-- 返回的按钮-->  
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+
+
+    <!--暗黑模式-->
+    <script src="/js/darkmode-js.min.js"></script>
+    <script>
+        function addDarkmodeWidget() {
+        const options = {
+            bottom: '53px', // default: '32px'
+            right: 'unset', // default: '32px'
+            left: '42px', // default: 'unset'
+            time: '0.3s', // default: '0.3s'
+            mixColor: '#fff', // default: '#fff'
+            backgroundColor: ' #e4e4e4 ',  // default: '#fff'
+            buttonColorDark: '#100f2c',  // default: '#100f2c'
+            buttonColorLight: '#fff', // default: '#fff'
+            saveInCookies: true, // default: true,
+            label: '🌓', // default: ''
+            autoMatchOsTheme: true // default: true
+        }
+    
+        const darkmode = new Darkmode(options);
+        darkmode.showWidget();
+        
+        }
+        window.addEventListener('load', addDarkmodeWidget);
+    </script>
+  
+</html>
