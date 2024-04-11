@@ -15,8 +15,35 @@
     <atom:link href="http://liehuocoder.online/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>全栈开发 | 热爱生活与技术</description>
-    <pubDate>Thu, 21 Mar 2024 06:08:29 GMT</pubDate>
+    <pubDate>Thu, 11 Apr 2024 10:41:23 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>读《纸上卧游记》一点小感悟</title>
+      <link>http://liehuocoder.online/2024/04/book/</link>
+      <guid>http://liehuocoder.online/2024/04/book/</guid>
+      <pubDate>Thu, 11 Apr 2024 10:21:25 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css&quot;&gt;&lt;div</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://liehuocoder.online/categories/%E6%84%9F%E8%A7%A6/">感触</category>
+      
+      
+      <category domain="http://liehuocoder.online/tags/%E8%AF%BB%E4%B9%A6/">读书</category>
+      
+      
+      <comments>http://liehuocoder.online/2024/04/book/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>后端开发方向笔试笔记</title>
